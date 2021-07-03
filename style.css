@@ -1,0 +1,120 @@
+body{
+	background-image: url("azzip.jpg");
+   background-size:cover;
+
+
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top:0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  #menu {
+	float: right;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;}
+  
+  .topnav a:hover {
+	background-color: whitesmoke;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+   .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color:yellow;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:yellow;
+	color:black; 
+	width: 200px;
+	border: none;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: right;
+	width: 80%;
+	padding: 5px;
+	color:yellow;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	/* padding-right:30px; */
+	width:150px;
+	height:100px;
+	border: none;
+	background-color:whitesmoke;
+	color:whitesmoke;
+	font-size: 15px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 20px;
+	line-height: 30px;
+	width: 390px;
+	height: 50px;
+	color:cornsilk;
+	background: none;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 2s 5s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color:whitesmoke;
+}
+#hypu{
+	width: 100px;
+	height: 50px;
+	background-color: yellow;
+	font-size: 20px;
+}
